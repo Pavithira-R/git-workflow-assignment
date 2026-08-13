@@ -1,4 +1,4 @@
-# make a small calculator that takes user input for two numbers and adds
+# Small calculator that takes two numbers from the user and divides them
 def divide_numbers():
     try:
         num1 = float(input("Enter the first number: "))
