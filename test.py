@@ -7,6 +7,8 @@ def divide_numbers():
         print(f"The division of {num1} and {num2} is {result}.")
     except ValueError:
         print("Invalid input. Please enter numeric values.")
+    except ZeroDivisionError:
+        print("Cannot divide by zero. Please enter a non-zero second number.")
 if __name__ == "__main__":
     divide_numbers()   
     print("Calculation completed successfully")
