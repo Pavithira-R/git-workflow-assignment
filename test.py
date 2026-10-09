@@ -12,3 +12,4 @@ def divide_numbers():
 if __name__ == "__main__":
     divide_numbers()   
     print("Calculation completed successfully")
+    print("Debug: temporary line")
